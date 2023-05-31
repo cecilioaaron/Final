@@ -1,0 +1,124 @@
+.generaciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.Gen1{
+    background-color: orange;
+    margin-bottom: 20px;
+    border-radius: 150px;
+    height: 120px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.552), rgba(0, 0, 0, 0.609)), url(https://www.mundodeportivo.com/alfabeta/hero/2020/02/Pokemon-primera-generacion.jpg?width=768&aspect_ratio=16:9&format=nowebp);
+    -webkit-text-stroke: 2px rgb(23, 98, 168);
+    color: rgb(48, 213, 235);
+}
+.generaciones .Gen1 a{
+    -webkit-text-stroke: 2px rgb(23, 98, 168);
+    color: rgb(48, 213, 235);
+    font-size: 80px;
+}
+.Gen2{
+    background-color: orange;
+    margin-bottom: 20px;
+    border-radius: 150px;
+    height: 120px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.552), rgba(0, 0, 0, 0.609)), url(https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/10713607/image/7e35775034da984e2b7d81cffa5f4809);
+    -webkit-text-stroke: 2px rgb(23, 98, 168);
+    color: rgb(48, 213, 235);
+}
+
+.generaciones .Gen2 a{
+    -webkit-text-stroke: 2px rgb(23, 98, 168);
+    color: rgb(48, 213, 235);
+    font-size: 80px;
+}
+
+.Gen3{
+    background-color: orange;
+    margin-bottom: 20px;
+    border-radius: 150px;
+    height: 120px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.552), rgba(0, 0, 0, 0.609)), url(https://pogomex.files.wordpress.com/2017/08/pokemon_tercera_generacion.jpg?w=788);
+    -webkit-text-stroke: 2px rgb(23, 98, 168);
+    color: rgb(48, 213, 235);
+}
+
+.generaciones .Gen3 a{
+    -webkit-text-stroke: 2px rgb(23, 98, 168);
+    color: rgb(48, 213, 235);
+    font-size: 80px;
+}
+
+.Gen4{
+    background-color: orange;
+    margin-bottom: 20px;
+    border-radius: 150px;
+    height: 120px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.552), rgba(0, 0, 0, 0.609)), url(https://f.rpp-noticias.io/2019/02/27/758698pokemon-go-all-gen-4-coming-to-gamejpgoptimaljpg.jpg);
+    -webkit-text-stroke: 2px rgb(23, 98, 168);
+    color: rgb(48, 213, 235);
+}
+
+.generaciones .Gen4 a{
+    -webkit-text-stroke: 2px rgb(23, 98, 168);
+    color: rgb(48, 213, 235);
+    font-size: 80px;
+}
+
+.Gen5{
+    background-color: orange;
+    margin-bottom: 20px;
+    border-radius: 150px;
+    height: 120px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.552), rgba(0, 0, 0, 0.609)), url(https://static.wikia.nocookie.net/7b6944da-246f-4365-8894-89c5a877d672/scale-to-width/755);
+    -webkit-text-stroke: 2px rgb(23, 98, 168);
+    color: rgb(48, 213, 235);
+}
+
+.generaciones .Gen5 a{
+    -webkit-text-stroke: 2px rgb(23, 98, 168);
+    color: rgb(48, 213, 235);
+    font-size: 80px;
+}
+
+.Gen6{
+    background-color: orange;
+    margin-bottom: 20px;
+    border-radius: 150px;
+    height: 120px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.552), rgba(0, 0, 0, 0.609)), url(https://statics.vrutal.com/hm/2016/03/VRU_85553_si_los_pokemon_de_6_gen_hubieran_salido_en_la_1_gen.jpg);
+    -webkit-text-stroke: 2px rgb(23, 98, 168);
+    color: rgb(48, 213, 235);
+}
+
+.generaciones .Gen6 a{
+    -webkit-text-stroke: 2px rgb(23, 98, 168);
+    color: rgb(48, 213, 235);
+    font-size: 80px;
+}

@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  /* color: white; */
+}
+.tittle{
+  text-align: center;
+  font-size: 60px;
+  -webkit-text-stroke: 2px rgb(142, 131, 248);
+  color: rgb(96, 183, 189);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.552));
+}
+body{
+  background-color:#868530;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.552), rgba(0, 0, 0, 0.609)), url(https://cdn.wallpapersafari.com/81/4/IFlD3e.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+a{
+  -webkit-text-stroke: 1px rgb(116, 105, 211);
+  color: rgb(169, 249, 255);
+}
+
+.MuiPaper-root{
+  background-color: #c4b147 !important;
+}
+.cnt {
+  display: flex !important;
+  justify-content: center;
+  gap: 20px;
+}
+h2#NewCat{
+  /* padding: 20px; */
+  text-align: center;
+  padding-bottom: 15px;
+}

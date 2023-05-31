@@ -1,0 +1,124 @@
+.juegos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.juego1{
+    background-color: orange;
+    margin-bottom: 20px;
+    border-radius: 150px;
+    height: 120px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.552), rgba(0, 0, 0, 0.609)), url(https://cdn.console2pc.com/wp-content/uploads/2020/04/Pokemon-Ultra-Moon-pc-download.jpg);
+    -webkit-text-stroke: 2px rgb(23, 98, 168);
+    color: rgb(48, 213, 235);
+}
+.juegos .juego1 a{
+    -webkit-text-stroke: 2px rgb(236, 95, 255);
+    color: rgb(233, 156, 252);
+    font-size: 80px;
+}
+.juego2{
+    background-color: orange;
+    margin-bottom: 20px;
+    border-radius: 150px;
+    height: 120px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.552), rgba(0, 0, 0, 0.609)), url(https://media.vandal.net/m/36961/pokemon-sol-luna-20165119396_1.jpg);
+    -webkit-text-stroke: 2px rgb(23, 98, 168);
+    color: rgb(48, 213, 235);
+}
+
+.juegos .juego2 a{
+    -webkit-text-stroke: 2px rgb(236, 95, 255);
+    color: rgb(233, 156, 252);
+    font-size: 80px;
+}
+
+.juego3{
+    background-color: orange;
+    margin-bottom: 20px;
+    border-radius: 150px;
+    height: 120px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.552), rgba(0, 0, 0, 0.609)), url(https://assets.pokemon.com/assets/cms2-es-es/img/video-games/video-games/pokemon_brilliant_diamond_shining_pearl/brilliant-diamond-shining-pearl-169-es.jpg);
+    -webkit-text-stroke: 2px rgb(23, 98, 168);
+    color: rgb(48, 213, 235);
+}
+
+.juegos .juego3 a{
+    -webkit-text-stroke: 2px rgb(236, 95, 255);
+    color: rgb(233, 156, 252);
+    font-size: 80px;
+}
+
+.juego4{
+    background-color: orange;
+    margin-bottom: 20px;
+    border-radius: 150px;
+    height: 120px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.552), rgba(0, 0, 0, 0.609)), url(https://hexrom.com/wp-content/uploads/2021/07/Pokemon-Platinum-Rom1.jpg);
+    -webkit-text-stroke: 2px rgb(23, 98, 168);
+    color: rgb(48, 213, 235);
+}
+
+.juegos .juego4 a{
+    -webkit-text-stroke: 2px rgb(236, 95, 255);
+    color: rgb(233, 156, 252);
+    font-size: 80px;
+}
+
+.juego5{
+    background-color: orange;
+    margin-bottom: 20px;
+    border-radius: 150px;
+    height: 120px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.552), rgba(0, 0, 0, 0.609)), url(https://assets.pokemon.com/assets/cms2-es-es/img/video-games/video-games/pokemon_brilliant_diamond_shining_pearl/brilliant-diamond-shining-pearl-169-es.jpg);
+    -webkit-text-stroke: 2px rgb(179, 212, 243);
+    color: rgb(235, 48, 226);
+}
+
+.juegos .juego5 a{
+    -webkit-text-stroke: 2px rgb(236, 95, 255);
+    color: rgb(233, 156, 252);
+    font-size: 80px;
+}
+
+.juego6{
+    background-color: orange;
+    margin-bottom: 20px;
+    border-radius: 150px;
+    height: 120px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.552), rgba(0, 0, 0, 0.609)), url(https://fotografias-neox.atresmedia.com/clipping/cmsimages01/2021/01/11/8884748F-4E29-4927-9C7C-14FF8CB75E38/default.jpg);
+    -webkit-text-stroke: 2px rgb(23, 98, 168);
+    color: rgb(48, 213, 235);
+}
+
+.juegos .juego6 a{
+    -webkit-text-stroke: 2px rgb(236, 95, 255);
+    color: rgb(233, 156, 252);
+    font-size: 80px;
+}

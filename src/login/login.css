@@ -1,0 +1,5 @@
+.cajacss{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.552), rgba(0, 0, 0, 0.609)), url(https://pbs.twimg.com/media/EWSkI7zXsAIXFms.jpg);
+    background-position: fixed;
+    background-size: cover;
+}
