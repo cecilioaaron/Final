@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import { TextField } from '@mui/material';
 import { ICategoria } from '../interfaces/ICategoria';
-import { getDatos } from '../firebase/FBcategorias';
+import { cargarprod, getDatos } from '../firebase/FBcategorias';
 import { useForm } from 'react-hook-form';
 import { newCategoria } from '../firebase/FBcategorias';
 import './poke.css'
@@ -24,7 +24,7 @@ export const CategoriasPage = () => {
       })
   }, [])
   return (
-    <>
+    <section>
     <Grid container sx={{ display: 'flex', justifyContent: 'space-around' }}>
         <Grid item xs={5} sx={{ backgroundColor: 'yellow', margin: '20px', padding: '15px', height: 'max-content', borderRadius: '30px' }}>
           <table border={2}>
@@ -89,10 +89,12 @@ export const CategoriasPage = () => {
 
             <Button type='submit' variant="contained" sx={{ marginTop: '10px' }}>Añadir</Button>
           </form>
+          <Button variant='contained' onClick={cargarprod}>Cargar Datos</Button>
         </Grid>
       </Grid>
 
-    </>
+
+    </section>
   );
     
 }

@@ -53,7 +53,7 @@ export const cargarprod = async () => {
         Datos.map(async (Datos) => {
             const codigo = nanoid(20);
             const docRef = doc(db, "Pokemon", codigo);
-            await setDoc(docRef, { codigo: codigo, ... Datos });
+            await setDoc(docRef, { codigo: codigo, ...Datos});
             window.location.reload();
         });
     } catch (error) {
