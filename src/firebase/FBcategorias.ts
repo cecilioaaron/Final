@@ -5,6 +5,7 @@ import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import firebaseConfig from "./Firebaseconfig";
 import { ICategoria } from "../interfaces/ICategoria";
 import { nanoid } from 'nanoid'
+import Datos from './Datos/Datos.json'
 
 
 export const app = initializeApp(firebaseConfig)
@@ -44,3 +45,18 @@ export const newCategoria = async (data: ICategoria) => {
         console.log(error)
     }
 }
+
+// carga masiva
+export const cargarprod = async () => {
+    try {
+        console.log('carga de datos...');
+        Datos.map(async (Datos) => {
+            const codigo = nanoid(20);
+            const docRef = doc(db, "Pokemon", codigo);
+            await setDoc(docRef, { codigo: codigo, ... Datos });
+            window.location.reload();
+        });
+    } catch (error) {
+        console.log(error);
+    }
+};

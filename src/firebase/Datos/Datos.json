@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Pikachu",
+        "valor": 100,
+        "tipo": "Electrico",
+        "habilidad": "Electroestatico"
+    },
+
+    {
+        "name": "Torterra",
+        "valor": 100,
+        "tipo": "Planta Tierra",
+        "habilidad": "Torrente"
+    },
+    
+    {
+        "name": "Pikachu",
+        "valor": 100,
+        "tipo": "Electrico",
+        "habilidad": "Electroestatico"
+    },
+
+    {
+        "name": "Infernape",
+        "valor": 100,
+        "tipo": "Fuego Lucha",
+        "habilidad": "Impulso"
+    },
+
+    {
+        "name": "Piplup",
+        "valor": 1,
+        "tipo": "Agua",
+        "habilidad": "Torrente"
+    },
+
+    {
+        "name": "Lucario",
+        "valor": 100,
+        "tipo": "Lucha Acero",
+        "habilidad": "Justiciero"
+    }
+]
