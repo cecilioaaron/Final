@@ -7,15 +7,18 @@ import { cargarprod, getDatos } from '../firebase/FBcategorias';
 import { useForm } from 'react-hook-form';
 import { newCategoria } from '../firebase/FBcategorias';
 import './poke.css'
+import { IPokemonPokedex } from '../interfaces/IPokedex';
+import { IPokemon } from '../interfaces/IPokemon';
+import { FBPokemon } from '../firebase/FBPokemon'
 
 export const CategoriasPage = () => {
-  const { register, handleSubmit } = useForm<ICategoria>();
-  const onAddCategoria = async (dataCategoria: ICategoria) => {
-    console.log(dataCategoria)
-    await newCategoria(dataCategoria)
-    window.location.reload();
+  const { register, handleSubmit } = useForm<IPokemon>();
+  const onAddCategoria = async (dataPokemon: IPokemon) => {
+    console.log(dataPokemon)
+    // await newCategoria(dataCategoria)
+    // window.location.reload();
   }
-  const [categorias, setCategorias] = useState<ICategoria[]>([])
+  const [Pokemons, setPokemons] = useState<IPokemon[]>([])
   useEffect(() => {
     getDatos()
       .then(res => {
@@ -29,17 +32,17 @@ export const CategoriasPage = () => {
         <Grid item xs={5} sx={{ backgroundColor: 'yellow', margin: '20px', padding: '15px', height: 'max-content', borderRadius: '30px' }}>
           <table border={2}>
             <th>Nombre</th>
-            <th>Nivel</th>
+            <th>especie</th>
             <th>Tipo</th>
-            <th>Habilidad</th>
+            <th>Imagen</th>
           {
-            categorias.slice(0, 100).map((categoria) => (
+            Pokemon.slice(0, 100).map((Pokemon) => (
               <>
               <tr>
-              <td key={categoria.name}>{categoria.name}</td>
-              <td>{categoria.valor}</td>
-              <td>{categoria.tipo}</td>
-              <td>{categoria.habilidad}</td>
+              <td key={Pokemon.name}>{Pokemon.name}</td>
+              <td>{Pokemon.especie}</td>
+              <td>{Pokemon.tipo}</td>
+              <td>{Pokemon.imagen}</td>
               {/* <img src={categoria.logo} alt="" /> */}
               </tr>
               </>
@@ -61,10 +64,10 @@ export const CategoriasPage = () => {
             </TextField>
             
             <TextField
-              {...register('valor')}
+              {...register('especie')}
               // id='Nivel'
-              label='Nivel'
-              type='Number'
+              label='especie'
+              type='String'
               sx={{ width: '60%' }}
             >
             </TextField>
@@ -78,9 +81,9 @@ export const CategoriasPage = () => {
             >
             </TextField>
             <TextField
-              {...register('habilidad')}
+              {...register('imagen')}
               // id='habilidad'
-              label='Habilidad'
+              label='imagen'
               type='string'
               sx={{ width: '60%' }}
             >
@@ -89,7 +92,7 @@ export const CategoriasPage = () => {
 
             <Button type='submit' variant="contained" sx={{ marginTop: '10px' }}>Añadir</Button>
           </form>
-          <Button variant='contained' onClick={cargarprod}>Cargar Datos</Button>
+          <Button  variant='contained' onClick={cargarprod}>Cargar Datos</Button>
         </Grid>
       </Grid>
 
